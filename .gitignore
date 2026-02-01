@@ -9,7 +9,7 @@ __pycache__/
 *.tfstate
 *.tfstate.backup
 
-# GCP
+# GCP credentials
 *.json
 
 # OS
