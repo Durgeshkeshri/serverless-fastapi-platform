@@ -5,7 +5,8 @@ app = FastAPI(title="Serverless FastAPI App")
 @app.get("/")
 def root():
     return {
-        "message": "FastAPI is running on Cloud Run",
+        "message": "🚀 Deployed automatically via GitHub Actions",
+        "pipeline": "CI/CD working end-to-end",
         "status": "success"
     }
 
